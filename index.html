@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      Choose Your Favorite Technological Accessories and We'll Tell You What
+      Plant You Are!
+    </h1>
+
+    <h2>Choose your favorite device:</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Fbrimnes-tv-bench-white__0850897_PE725294_S5.webp?v=1592441836702"
+        />
+        <br />
+        <button id="q1a1">Television</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2FOnn_Tablet_10.0.jpg?v=1592441838051"
+        />
+        <br />
+        <button id="q1a2">Tablet</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2F1563375962-samsung-galaxy-s10-plus-1550692548.jpg?v=1592441842404"
+        />
+        <br />
+        <button id="q1a3">Phone</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Foman.jpg?v=1592441866229"
+        />
+        <br />
+        <button id="q1a4">Computer</button>
+      </div>
+      <div class="restart-button">
+        <br />
+        <button id="r1">
+          Clear Answers
+        </button>
+      </div>
+    </div>
+
+    <h2>Choose your favorite streaming app:</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Fquibi-logo.jpg?v=1592442783285"
+        />
+        <br />
+        <button id="q2a1">Quibi</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2F65299d601fce6efe7a1dd7535de1503e.png?v=1592442784147"
+        />
+        <br />
+        <button id="q2a2">Tik Tok</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Fgeneric-email-header-1.jpg?v=1592442785236"
+        />
+        <br />
+        <button id="q2a3">Twitch</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Fyt_1200-vflhSIVnY.png?v=1592442786583"
+        />
+        <br />
+        <button id="q2a4">YouTube</button>
+      </div>
+      <div class="restart-button">
+        <br />
+        <button id="r2">
+          Clear Answers
+        </button>
+      </div>
+    </div>
+
+    <h2>Choose your favorite console:</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Foculus_301_00178_01_rift_s_pc_powered_1503556.jpg?v=1592444759576"
+        />
+        <br />
+        <button id="q3a1">Virtual Reality</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Fplaystation-4-slim-vertical-product-shot-01-us-07sep16.png?v=1592444762575"
+        />
+        <br />
+        <button id="q3a2">PlayStation</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Fxbox-one-x-review-controller-in-front-system.jpg?v=1592444762779"
+        />
+        <br />
+        <button id="q3a3">Xbox</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2FNintendo-Switch-Console-Docked-wJoyConRB.jpg?v=1592444764291"
+        />
+        <br />
+        <button id="q3a4">Nintendo Switch</button>
+      </div>
+      <div class="restart-button">
+        <br />
+        <button id="r3">
+          Clear Answers
+        </button>
+      </div>
+    </div>
+    <div class="clear">
+      <br />
+      <button id="clear">
+        Restart Quiz
+      </button>
+    </div>
+
+    <div class="result">
+      <h2 id="result">Your result is...</h2>
+      <img
+        id="baplant"
+        src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2FAdobeStock_296255302-scaled.jpeg?v=1592605363487"
+      />
+      <img
+        id="boplant"
+        src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2FHow-To-Keep-Bonsai-Leaves-Small-1.jpg?v=1592605358433"
+      />
+      <img
+        id="mplant"
+        src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Fgrowing-mint.jpg?v=1592605359327"
+      />
+      <img
+        id="tplant"
+        src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2F4222020123129AM-696x493-1.jpg?v=1592605360274"
+      />
+      <img
+        id="splant"
+        src="https://cdn.glitch.com/a61eaf77-03c1-4127-93ff-6550082e8d49%2Fhow-to-grow-succulents-1590071439.jpg?v=1592605361846"
+      />
+    </div>
+  </body>
+</html>
