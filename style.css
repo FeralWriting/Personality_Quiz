@@ -1,0 +1,41 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #ebddcb;
+}
+
+h1 {
+  color: #8B4513;
+}
+
+h2 {
+  margin-top: 2em;
+  color: #808080;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+
+.answer-choice img {
+  height: 10em;
+}
+.result img {
+  height: 10em;
+}
+.result img {
+  visibility: hidden;
+}
+
+button {
+  background-color: #b9722d;
+}
+button:hover {
+  background-color: #A9A9A9;
+}
+button:focus {
+  background-color: #DCDCDC;
+}
